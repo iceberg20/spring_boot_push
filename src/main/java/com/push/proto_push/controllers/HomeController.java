@@ -30,9 +30,9 @@ public class HomeController {
         JSONObject body = new JSONObject();
         // JsonArray registration_ids = new JsonArray();
         // body.put("registration_ids", registration_ids);
-        // Italo
+        // Italo Berg
         body.put("to", "dQ1wo4ZHyjY:APA91bHXtjCkV8NQCbJ_kxYogesogqGhM5eCvlwuTfESSElGkeyyStnnSaJj-Dfa6MuGDwlndk3N9Dvoakn_RpZ6kHDgc6ALXzfRAmAbhpLPEVbyf3eNKqzIFQ8YrMOxRkp5Q8C4lCc8");
-        // Mateus
+        // Mateus Oliveira
         // body.put("to", "d0tFrPLRfAI:APA91bEXnCGBexpDnUMxfWuUXXbvYj5b7IpwFB5wuExQkzcAJeVkRamUkgxorcGhgHHNzcY24xI8KmPv8-8Jcc2BU_ZQgtlUxugg687-ra6hyq83ZCwiIDrXYYHHDQKJ1dWsqID5uX6W");
         body.put("priority", "high");
         // body.put("dry_run", true);
