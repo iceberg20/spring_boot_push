@@ -40,10 +40,10 @@ public class HomeController {
         notification.put("title", "Titulo de teste");
         // notification.put("icon", "myicon");
 
-        JSONObject data = new JSONObject();
-        data.put("id", "1");
+//        JSONObject data = new JSONObject();
+        
         body.put("notification", notification);
-        body.put("data", data);
+//        body.put("data", data);
 
         HttpEntity<String> request = new HttpEntity<>(body.toString());
 
