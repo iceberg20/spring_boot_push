@@ -29,26 +29,19 @@ public class HomeController {
         JSONObject body = new JSONObject();
         // JsonArray registration_ids = new JsonArray();
         // body.put("registration_ids", registration_ids);
-        
-        if("mateus".equals(nome)){
-            body.put("to", "d0tFrPLRfAI:APA91bEXnCGBexpDnUMxfWuUXXbvYj5b7IpwFB5wuExQkzcAJeVkRamUkgxorcGhgHHNzcY24xI8KmPv8-8Jcc2BU_ZQgtlUxugg687-ra6hyq83ZCwiIDrXYYHHDQKJ1dWsqID5uX6W");
-        } 
-        else {
-            body.put("to", "dQ1wo4ZHyjY:APA91bHXtjCkV8NQCbJ_kxYogesogqGhM5eCvlwuTfESSElGkeyyStnnSaJj-Dfa6MuGDwlndk3N9Dvoakn_RpZ6kHDgc6ALXzfRAmAbhpLPEVbyf3eNKqzIFQ8YrMOxRkp5Q8C4lCc8");
-        }
-
+     
+        body.put("to", "eMSz72U5slE:APA91bGu3lx5rB_CV43goCSfIk6p0OEgTDHKO8ibcC-s8AyYE0iIY2OMrQgi4bO0lG79CFrEeUEtB3JV9f3N4dTs1Yg1G-4YHOeuc2Ut2KrpAxQDaox6WK1BxBEx4opXpTutEqj3vKrY");
         body.put("priority", "high");
+ 
         // body.put("dry_run", true);
 
         JSONObject notification = new JSONObject();
-        notification.put("body", "Eu vim do spring boot xD");
-        notification.put("title", "Sci Push - Italo");
+        notification.put("body", "Apenas um teste");
+        notification.put("title", "Titulo de teste");
         // notification.put("icon", "myicon");
 
         JSONObject data = new JSONObject();
-        data.put("key1", "value1");
-        data.put("key2", "value2");
-
+        data.put("id", "1");
         body.put("notification", notification);
         body.put("data", data);
 
